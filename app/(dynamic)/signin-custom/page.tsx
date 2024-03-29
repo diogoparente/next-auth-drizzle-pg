@@ -1,5 +1,5 @@
-import SigninBtnCustom from "@/components/signin-btn-custom";
-import SignOutBtnCustom from "@/components/signout-btn.custom";
+import SigninBtnCustom from "@/components/buttons/auth/signin-btn-custom";
+import SignOutBtnCustom from "@/components/buttons/auth/signout-btn.custom";
 import { auth } from "@/lib/auth";
 
 export default async function Page() {

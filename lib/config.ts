@@ -6,6 +6,10 @@ loadEnvConfig(projectDir);
 const config = {
   POSTGRES_URL: process.env.POSTGRES_URL!,
   APP_ENV: process.env.APP_ENV!,
+  site: {
+    title: "nestflip",
+    description: "Sell your house. Faster",
+  },
 };
 
 export default config;

@@ -1,4 +1,4 @@
-import SignInBtnAuto from "@/components/signin-btn-auto";
+import SignInBtnAuto from "@/components/buttons/auth/signin-btn-auto";
 
 export default function Page() {
   return (
